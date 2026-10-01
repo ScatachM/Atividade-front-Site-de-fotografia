@@ -69,4 +69,4 @@ Site de uma página para uma empresa fictícia de fotografia e vídeo. Foi desen
 
 ## Autor
 
-Desenvolvido por **[Seu nome]** como atividade da disciplina de Front-end.
+Desenvolvido por **Susana Mota** como atividade da disciplina de Front-end.

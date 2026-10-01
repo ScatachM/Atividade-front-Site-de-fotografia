@@ -69,4 +69,4 @@ A one-page website for a fictional photography and video company. It was built a
 
 ## Author
 
-Developed by **[Your name]** as an assignment for the Front-end course.
+Developed by **Susana Mota** as an assignment for the Front-end course.
