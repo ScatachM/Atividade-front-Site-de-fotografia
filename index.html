@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Susana Mota Fotografia</title>
+    <title>Teixonobre Photos</title>
     <!--ícone na tab-->
-    <link rel="icon" type="image/jpg" href="">
+    <link rel="icon" type="image/jpg" href="img/logo.png">
+
+    <!--link para o google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
     <!--link para o css externo-->
     <link rel="stylesheet" type="text/css" href="estilo.css">
+    <!--link para o font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body id="topo">
 
@@ -25,14 +33,11 @@
         </nav>
     </header>
 
-<!--imagem-->
-<!--Colocar a imagem no css-->
-
 <!--section foto + texto + ver mais-->
     <section class="fotos-profis">
-        <h1>Fotos Profissionais</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, mollitia iste voluptatum at, vitae perferendis accusamus, reprehenderit labore iure unde aut dolores odit reiciendis. Molestias nobis ut laborum nihil obcaecati.</p>
-        <p class="ver-mais"><a href="">Ver mais</a></p>
+            <h1>Teixonobre Photos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, mollitia iste voluptatum at, vitae perferendis accusamus, reprehenderit labore iure unde aut dolores odit reiciendis. Molestias nobis ut laborum nihil obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fugiat aut quidem! Totam sapiente nostrum natus odio rerum accusantium quidem. Ullam similique, dicta error eum voluptatibus minus blanditiis excepturi eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempore voluptatibus placeat veniam magnam non, dolore quisquam ducimus ipsum nihil quis, minima sint nesciunt aliquam expedita illum asperiores praesentium fuga.</p>
+            <p class="ver-mais"><a href="">Ver mais</a></p>
     </section>
 
 <!--section sobre + contratar agora-->
@@ -45,31 +50,41 @@
 <!--Section Serviços: fotografia, edição de filmes, captação de imagens e tratamento de imagens-->
     <section class="servicos">
         <h1>Serviços</h1>
-        <div>
-            <img src="img/camera icone seção.png">
-            <h2>Fotografia</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ex autem dolores sapiente corrupti rem voluptates facere explicabo eum consequatur placeat aliquid sunt, quae sit molestiae ut dolor magnam! Impedit?</p>
-        </div>
-        <div>
-            <img src="img/filme icone seção.png">
-            <h2>Edição de filmes</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo minima enim cupiditate neque, reprehenderit temporibus iste saepe ratione, eveniet quidem ea voluptas, maiores mollitia id quam quis rerum labore.</p>
-        </div>
-        <div>
-            <img src="img/cortefilme icone seção.png">
-            <h2>Captação de imgagens</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dolorem beatae blanditiis itaque unde eius? Quam, voluptatum tempora sapiente at eius fuga rerum ut earum minima quas ipsa veritatis eveniet.</p>
-        </div>
-        <div>
-            <img src="img/pc icone seção.png">
-            <h2>Tratamento de imagens</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure distinctio quia error dolor deleniti voluptatum veniam veritatis earum placeat! Corporis provident sunt sed hic. Ipsam officiis ipsum minus velit!</p>
+        <div class="servicos-container">
+            <div class="servicos-item">
+                <i class="fa-solid fa-camera"></i>
+                <h2>Fotografia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ex autem dolores sapiente corrupti rem voluptates facere explicabo eum consequatur placeat aliquid sunt, quae sit molestiae ut dolor magnam! Impedit?</p>
+            </div>
+            <div class="servicos-item">
+                <i class="fa-solid fa-film"></i>
+                <h2>Edição de filmes</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam explicabo minima enim cupiditate neque, reprehenderit iste saepe ratione, eveniet quidem ea voluptas, maiores mollitia id quam quis rerum labore.</p>
+            </div>
+            <div class="servicos-item">
+                <i class="fa-solid fa-video"></i>
+                <h2>Captação de imagens</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae dolorem beatae blanditiis itaque unde eius? Quam, voluptatum tempora sapiente at eius fuga rerum ut earum minima quas ipsa veritatis eveniet.</p>
+            </div>
+            <div class="servicos-item">
+                <i class="fa-solid fa-image"></i>
+                <h2>Tratamento de imagens</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iure distinctio quia error dolor deleniti voluptatum veniam veritatis earum placeat! Corporis provident sunt sed hic. Ipsam officiis ipsum minus velit!</p>
+            </div>
         </div>
     </section>
 
 <!--Section fotos-->
     <section class="fotos">
-        <!--colocar as 4 fotos-->
+        <h2>Fotos</h2>
+
+        <div class="galeria">
+            <img src="img/foto flor branca.jpg" alt="Foto de uma flor branca">
+            <img src="img/foto paisagem.jpg" alt="Foto de uma paisagem">
+            <img src="img/foto guitarra.jpg" alt="Foto de uma guitarra">
+            <img src="img/foto borboleta.jpg" alt="Foto de uma borboleta">
+            <img src="img/foto boneca.jpg" alt="Foto de uma boneca">
+        </div>
     </section>
 
 <!--Contatos e sobre a impresa-->
